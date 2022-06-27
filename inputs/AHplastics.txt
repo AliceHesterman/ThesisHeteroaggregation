@@ -1,0 +1,35 @@
+#Microplastics input file Alice
+#file containing input properties of microplastics to be modelled
+#
+#
+#Parameters 
+#
+#ID: internal number/label
+#name: name to be used in outputs
+#composition: polymer type (e.g. PE for polyethylene) or type of SPM/natural colloid (e.g. clay)
+#density_kg_m3: density of parent (original) particle in kg/m3
+#MPshape: particle shape (sphere, fibre, flake, film, cylinder, ...). Note: only sphere is implemented well throughout the code, for other shape check processes
+#diamter_um: (median) diameter in micrometers (for spherical particles)
+#length_a_um, length_b_um, length_c_um: individual dimensions in micrometer (for non-spherical particles. For sphere should be left as 0
+#
+ID,name,composition,density_kg_m3,MPshape,diameter_um,length_a_um,length_b_um,length_c_um
+1,MP1,PE,980,sphere,0.1,0,0,0
+2,MP2,PE,980,sphere,1,0,0,0
+3,MP3,PE,980,sphere,10,0,0,0
+4,MP4,PE,980,sphere,100,0,0,0
+5,MP5,PE,980,sphere,1000,0,0,0
+6,MP6,PA,999,sphere,0.1,0,0,0
+7,MP7,PA,999,sphere,1,0,0,0
+8,MP8,PA,999,sphere,10,0,0,0
+9,MP9,PA,999,sphere,100,0,0,0
+10,MP10,PA,999,sphere,1000,0,0,0
+11,MP11,PVC,1580,sphere,0.1,0,0,0
+12,MP12,PVC,1580,sphere,1,0,0,0
+13,MP13,PVC,1580,sphere,10,0,0,0
+14,MP14,PVC,1580,sphere,100,0,0,0
+15,MP15,PVC,1580,sphere,1000,0,0,0
+16,SPM1,mixed,2120,sphere,1.0,0,0,0
+17,SPM2,mixed,2120,sphere,3.0,0,0,0
+18,SPM3,mixed,2120,sphere,10.0,0,0,0
+19,SPM4,mixed,2120,sphere,30.0,0,0,0
+20,SPM5,mixed,2120,sphere,100.0,0,0,0
